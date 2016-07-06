@@ -34,7 +34,7 @@ gulp.task('css', function(){
 });
  
 // Build project in dist
-gulp.task('build', ['clean'], function () {
+gulp.task('build', ['css', 'clean'], function () {
     return gulp.src('app/*.html')
         .pipe(useref())
         .pipe(gulpif('*.js', uglify()))
@@ -43,7 +43,7 @@ gulp.task('build', ['clean'], function () {
 });
 
 // Build components bower in app
-gulp.task('bower', function () {
+gulp.task('bower', ['css'], function () {
   gulp.src('./app/index.html')
     .pipe(wiredep({
       directory: "app/bower_components/"
