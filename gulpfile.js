@@ -58,7 +58,7 @@ gulp.task('clean', function () {
     .pipe(clean());
 });
 
-gulp.task('watch', ['browser-sync', 'css'], function() {
+gulp.task('watch', ['bower','browser-sync', 'css'], function() {
   gulp.watch('app/*.html', browserSync.reload);
   gulp.watch('app/less/**/*.less', ['css']);
   gulp.watch('app/js/**/*.js', browserSync.reload);

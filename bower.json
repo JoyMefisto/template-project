@@ -5,7 +5,7 @@
     "email": "mefistoggc@mail.ru"
   },
   "description": "",
-  "main": "",
+  "main": "template.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
