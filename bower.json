@@ -1,0 +1,22 @@
+{
+  "name": "blank",
+  "authors": {
+    "name":"Shanin Artem",
+    "email": "mefistoggc@mail.ru"
+  },
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "normalize-css": "normalize.css#^4.2.0",
+    "tooltipster": "^4.0.4"
+  }
+}
