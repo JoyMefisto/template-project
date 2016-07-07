@@ -1,5 +1,11 @@
 ### Стартовый шаблон для разработки интерфейса
 
+Перед работой с шаблоном на вашем компьютере должны быть установлены:
+* Устанавливаем [Node.js](https://nodejs.org/)
+* Устанавливаем Gulp ```npm install --global gulp-cli```
+
+#### Установка зависимостей и подготовка шаблона
+
 1. Переходим в папку с шаблоном: ``` cd template-project/ ```
 2. Устанавливаем зависимости bower: ```bower install``` 
 3. Устанавливаем зависимости gulp: ```npm install``` 
@@ -9,12 +15,12 @@
 
 > Установлен препроцессор less, после компиляции стили находятся в app/css/main.css и подключены в app/index.html.
 
-#### bower dependencies:
+#### bower.json dependencies:
     "jquery": "^3.0.0",
     "normalize-css": "normalize.css#^4.2.0",
     "tooltipster": "^4.0.4"
 
-#### gulp devDependencies:
+#### package.json devDependencies:
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
