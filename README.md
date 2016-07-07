@@ -3,7 +3,7 @@
 #### Перед работой с шаблоном на вашем компьютере должны быть установлены:
 * Устанавливаем [Node.js](https://nodejs.org/)
 * Устанавливаем [Git](https://git-scm.com/)
-* Устанавливаем глобально npm Gulp и Bower ```npm install --global gulp-cli bower```
+* Устанавливаем глобально npm Gulp и Bower ```npm install --global gulp bower```
 
 
 #### Установка зависимостей и подготовка шаблона
